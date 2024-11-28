@@ -1,0 +1,22 @@
+choice num sum rem rev is_even 
+  0     0   0   0    0    0
+  0     123   0   0    0    0
+  1    123   0   0    0    0
+
+
+  Enter the number to perform below operations: 123
+  Choose the choices below mentioned :
+1: Even or Odd
+2: Sum of Digits
+3: Reverse of Number
+4: Exit
+1
+it is Odd Number
+  Enter the number to perform below operations: 123
+  Choose the choices below mentioned :
+1: Even or Odd
+2: Sum of Digits
+3: Reverse of Number
+4: Exit
+4
+Exit from the system
