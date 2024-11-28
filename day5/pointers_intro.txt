@@ -1,0 +1,53 @@
+Pointers in C:
+==============
+* Pointer is a variable that stores the address of another variable.
+* In C, Pointers porvide a powerfull and flexible way to manage the data and memory.
+
+
+Why Use Pointers?
+=================
+1. Dynamic Memory Allocation using malloc() and calloc().
+2. Manipulating array and string directly  using pointer arthmetic.
+3. Function arguments : passing a reference.
+4. Data structures : Efficiently implementing linked lists, trees.
+
+How to declare the Pointer:
+===========================
+syntax:
+=======
+data_type *pointer_name;
+Ex:
+===
+int *ptr;
+
+
+How to initialization the pointer:
+==================================
+syntx:
+======
+pointer_name = &variable_name
+
+ex:
+===
+int num=10;
+ptr = &num;
+
+
+how to declare and initialize at same time:
+===========================================
+int num=100;
+int *ptr = &num;
+
+
+pointer operators:
+==================
+1. & (address operator/reference operator) => it is used toget the memory address of a variable.
+2. * (de-reference operator) => it is used to get the value present in that address.
+
+
+pointer types:
+==============
+1.null pointer
+2.dangling pointer
+3.wild pointer
+4.void pointer
